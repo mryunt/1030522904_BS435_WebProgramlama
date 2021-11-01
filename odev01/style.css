@@ -1,0 +1,45 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.kart {
+    padding: 1rem;
+    width: 15%;
+    height: 40%;
+} */
+
+html, body {
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(71, 53, 25);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.kart {
+    margin: 20px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mesaj {
+    background-color: green;
+    color: black;
+}
+
+.link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
