@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="head">Kedi Bulmaca</h1>
+    <p class="paragraph">Bu oyunda 3 kapalı kart içindeki kediyi bulman gerekmektedir. İlk tercihte kedi kartını
+        bulamaz isen 2. seçim hakkı tanınacaktır.</p>
+    <img id="img0" src="bg.jpg" class="kart" onclick="Change.changeImg('img0')">
+    <img id="img1" src="bg.jpg" class="kart" onclick="Change.changeImg('img1')">
+    <img id="img2" src="bg.jpg" class="kart" onclick="Change.changeImg('img2')">
+    <div class="mesaj">
+        <p id="alanId">Kedi kartını bulmak için kartın üzerine tıklamalısın</p>
+        <p id="kazandiId" style="display: none">Kazandın!!! Tebrik ederiz :) Yeni bir oyun oynamak istersen <a
+                href="index.html">buraya</a> tıklayabilirsin.</p>
+        <p id="yenildiId" style="display: none">Kaybettin :( Yeni bir oyun oynamak istersen <a
+                href="index.html">buraya</a> tıklayabilirsin.</p>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
